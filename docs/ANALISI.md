@@ -24,7 +24,7 @@ Per poter mettere mano sul dataset è stato necessario fare delle operazioni di 
 mettere mano nella voce "date_added" del dataset per poter escludere eventuali voci senza una data e prendere in considerazione
 solo l'anno, escludendo giorno e mese. 
 
-![Titoli aggiunti per anno](../plots/titoli_per_anno.png)
+![Titoli aggiunti per anno](../plots/titoliPerAnno.png)
 
 Come si può vedere dal grafico, gli anni con un maggior numero di titoli caricati sulla piattaforma sono nel 2019 e 2020.
 Molto probabilmente, se non sicuramente, questo numero è dovuto per la situazione della quarantena del COVID-19, dove visto
