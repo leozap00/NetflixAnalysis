@@ -33,3 +33,38 @@ durante quel periodo.
 
 <b><h3>2.1.2 Distribuzione per mese (stagionalità)</b></h3>
 
+<b><h4>2.1.2.1 Analisi della stagionalità generale</b></h4>
+
+Prima dell'analisi ho pensato di fare una stima che prevedesse un maggior numero di titoli sotto il periodo natalizio(
+quindi per la mensilità di dicembre) e per il periodo che comprende da aprile a luglio in quanto è un periodo in cui si nota
+un numero maggiore di titoli in arrivo. Dopo questa stima, è stato preparata la tabella mostrata di seguito:
+
+![Titoli aggiunti per anno](../plots/titoliPerMeseGenerale.png)
+
+Dalla tabella si evince che il mese con maggiori titoli usciti è luglio. In seguito possiamo trovare come secondo mese con 
+maggior numero di titoli dicembre. Per dicembre è risaputo che si punta nel portare nuovi film e serie TV inerenti al Natale.
+Per quanto riguarda il mese di luglio probabilmente per il mercato è il periodo migliore anche se va in contrasto con l'idea dell'estate
+dove le persone sono meno propense a stare a casa per guardare titoli sulla piattaforma.Mentre il mese con minor numero di titoli
+è febbraio, ma questo forse è dovuto anche al fatto che sia il mese con il minor numero di giorni.
+
+<b><h4>2.1.2.2 Analisi della stagionalità negli ultimi 3 anni</b></h4>
+
+Per questa analisi mi limiterò a commentare solo i risultati ottenuti dalla tabella sottostante:
+
+![Titoli aggiunti per anno](../plots/titoliPerMese3Anni.png)
+
+La prima cosa da notare è che, purtroppo, il dataset non è molto aggiornato, infatti per l'anno 2021 il dataset si ferma a 
+settembre, facendo comprendere che in realtà questo dataset non è aggiornato mensilmente contrariamente da quando si è detto 
+nell'introduzione ma è comunque interessante analizzare i dati che si hanno anche se non sono aggiornati all'ultimo anno.
+Nel grafico non si rivelano picchi nel periodo di inizio COVID poiché i picchi che si possono notare sono a luglio 2021,
+probabilmente dovuto ai motivi citati nella sezione precedente, mentre il secondo picco lo troviamo a novembre 2019 al quale
+non ho collegamenti da fare anche perché nella sezione precedente il mese di novembre non presenta un picco, anche se ha comunque
+un valore elevato.
+
+<b><h4>2.1.2.3 Confronto stagionalità anno migliore vs. anno peggiore</b></h4>
+
+Per questa analisi ovviamente scarteremo gli anni che non sono significativi (ovvero quelli fino al 2015) in quanto per questo
+dataset si hanno solo 1 o 2 titoli aggiunti e quindi un numero non adatto per poter eseguire un confronto. Di conseguenza 
+gli anni che saranno messi a confronto saranno quelli del 2016 e del 2019.
+
+![Titoli aggiunti per anno](../plots/titoliPerMeseConfronto.png)
